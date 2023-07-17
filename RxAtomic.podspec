@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 Atomic primitives for RxSwift.
                         DESC
-  s.homepage         = "https://github.com/ReactiveX/RxSwift"
+  s.homepage         = "https://github.com/daisuke0131/RxSwift"
   s.license          = 'MIT'
-  s.author           = { "Krunoslav Zaher" => "krunoslav.zaher@gmail.com" }
-  s.source           = { :git => "https://github.com/ReactiveX/RxSwift.git", :tag => s.version.to_s }
+  s.author           = { "Daisuke Yamashita" => "dai.tachikoma@gmail.com" }
+  s.source           = { :git => "https://github.com/daisuke0131/RxSwift.git", :branch => "4_5_0" }
 
   s.requires_arc          = true
 
